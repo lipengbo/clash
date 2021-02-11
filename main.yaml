@@ -7153,7 +7153,6 @@ rules:
  - DOMAIN,r4---sn-ntqe6n76.c.2mdn.net,REJECT
  - DOMAIN,r4---sn-ntqe7n76.c.2mdn.net,REJECT
  - DOMAIN,r4.sn-ntqe7n76.c.2mdn.net,REJECT
- - DOMAIN,r4---sn-n
 # ==============stop==============
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
