@@ -4178,10 +4178,7 @@ rules:
  - DOMAIN-SUFFIX,googletagservices.com, REJECT
  - DOMAIN-SUFFIX,www.googleadservices.com, REJECT
  - DOMAIN-SUFFIX,www.google-analytics.com, REJECT
-# Google
- - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
- - DOMAIN,safebrowsing.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,dl.google.com,DIRECT
+
 # ==============stop==============
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
