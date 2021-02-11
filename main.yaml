@@ -4143,8 +4143,8 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
-#--------------------------start------------------------
-# > YouTube++
+# ==============start==============
+# YouTube
  - DOMAIN,ehg-youtube.hitbox.com,REJECT
  - DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
  - DOMAIN-SUFFIX,couchcoaster.jp,REJECT
@@ -4153,8 +4153,7 @@ rules:
  - DOMAIN-SUFFIX,m-78.jp,REJECT
  - DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
  - DOMAIN-SUFFIX,nicorette.co.kr,REJECT
-
- # > Google
+ # Google
   - DOMAIN-SUFFIX,doubleclick.net,REJECT
   - DOMAIN-SUFFIX,googleadservices.com,REJECT
   - DOMAIN-SUFFIX,googleadsserving.cn,REJECT
@@ -4180,10 +4179,10 @@ rules:
   - DOMAIN-SUFFIX,www.googleadservices.com, REJECT
   - DOMAIN-SUFFIX,www.google-analytics.com, REJECT
 
-# > Google
+# Google
  - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
  - DOMAIN,safebrowsing.googleapis.com,DIRECT
  - DOMAIN-SUFFIX,dl.google.com,DIRECT
-#-----------------------stop---------------------------
+# ==============stop==============
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
