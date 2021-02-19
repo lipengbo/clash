@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: fiddler, server: 192.168.2.225, port: 8888, type: http}
 proxy-groups:
-  - name: fiddler
+  - name: 节点选择
     type: select
     proxies:
       - DIRECT
